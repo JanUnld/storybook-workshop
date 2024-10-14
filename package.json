@@ -8,8 +8,11 @@
     "@angular-devkit/core": "~18.2.0",
     "@nx/angular": "^20.0.0",
     "@nx/js": "20.0.0",
+    "@nx/storybook": "^20.0.0",
+    "@nx/web": "20.0.0",
     "@nx/workspace": "20.0.0",
-    "nx": "20.0.0"
+    "nx": "20.0.0",
+    "storybook": "^8.2.8"
   },
   "dependencies": {}
 }
