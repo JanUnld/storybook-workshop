@@ -24,6 +24,13 @@
     "@nx/workspace": "20.0.0",
     "@playwright/test": "^1.36.0",
     "@schematics/angular": "~18.2.0",
+    "@storybook/addon-essentials": "^8.2.8",
+    "@storybook/addon-interactions": "^8.2.8",
+    "@storybook/angular": "^8.2.8",
+    "@storybook/core-server": "^8.2.8",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/test-runner": "^0.13.0",
+    "@storybook/testing-library": "^0.2.2",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -61,6 +68,8 @@
     "@angular/platform-browser": "~18.2.0",
     "@angular/platform-browser-dynamic": "~18.2.0",
     "@angular/router": "~18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rxjs": "~7.8.0",
     "zone.js": "~0.14.3"
   }
