@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@storybook-workshop/design-system": ["libs/design-systems/src/index.ts"],
       "@storybook-workshop/ui-components": ["libs/ui-components/src/index.ts"]
     }
   },

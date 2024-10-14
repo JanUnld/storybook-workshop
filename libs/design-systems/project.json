@@ -1,0 +1,37 @@
+{
+  "name": "design-system",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/design-systems/src",
+  "prefix": "ds",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/design-systems/ng-package.json",
+        "tailwindConfig": "libs/design-systems/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/design-systems/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/design-systems/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/design-systems/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
