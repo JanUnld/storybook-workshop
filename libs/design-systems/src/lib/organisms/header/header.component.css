@@ -1,0 +1,8 @@
+:host {
+  @apply block px-4 py-6;
+  @apply border-b-2 border-neutral-200;
+
+  .title {
+    @apply text-3xl text-gray-500 mb-4;
+  }
+}
