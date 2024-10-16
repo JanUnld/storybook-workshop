@@ -1,0 +1,16 @@
+<header>
+  <ds-header [title]="headerTitle()">
+    <ng-content select="[uiLandingPageHeaderContent]"></ng-content>
+  </ds-header>
+</header>
+<main>
+  <div class="spotlight-content">
+    <ng-content select="[uiLandingPageSpotlightContent]"></ng-content>
+  </div>
+  <div class="content">
+    <ng-content></ng-content>
+  </div>
+</main>
+<footer>
+  <ng-content select="[uiLandingPageFooterContent]"></ng-content>
+</footer>

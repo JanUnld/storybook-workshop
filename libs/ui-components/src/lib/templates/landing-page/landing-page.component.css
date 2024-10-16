@@ -1,0 +1,8 @@
+:host {
+  @apply block;
+
+  & .spotlight-content {
+    @apply my-4 p-6;
+    @apply rounded-xl bg-neutral-100;
+  }
+}
