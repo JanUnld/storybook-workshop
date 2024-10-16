@@ -48,13 +48,12 @@ To simplify the understanding of the domains and components within this reposito
 
 ### Steps
 
-1. Setup [Storybook][sb]
-2. Creating an atom (e.g. `link`)
-3. Creating a molecule (e.g. `breadcrumbs`)
-4. Creating an organism (e.g. `header`)
-5. Creating a template (e.g. `landing page`)
-6. Creating a page (e.g. `home`)
-7. Integrating it into the app
+1. [Creating an atom](https://github.com/JanUnld/storybook-workshop/compare/step-1) (e.g. `link`)
+2. [Creating a molecule](https://github.com/JanUnld/storybook-workshop/compare/step-1...step-2) (e.g. `breadcrumbs`)
+3. [Creating an organism](https://github.com/JanUnld/storybook-workshop/compare/step-2...step-3) (e.g. `header`)
+4. [Creating a template](https://github.com/JanUnld/storybook-workshop/compare/step-3...step-4) (e.g. `landing page`)
+5. [Creating a page](https://github.com/JanUnld/storybook-workshop/compare/step-4...step-5) (e.g. `home`)
+6. Integrating it into the app
 
 ### Branching
 
