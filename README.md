@@ -69,9 +69,9 @@ nx run <project>:storybook
 
 Where `<project>` is one of the following:
 
-- `ui`
-- `ui-components`
 - `design-system`
+- `ui-components`
+- `ui`
 
 #### Quickstart Recipies
 
