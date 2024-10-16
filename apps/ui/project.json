@@ -105,6 +105,7 @@
       "options": {
         "outputDir": "dist/storybook/ui",
         "configDir": "apps/ui/.storybook",
+        "styles": ["apps/ui/.storybook/styles.css"],
         "browserTarget": "ui:build",
         "compodoc": false
       },

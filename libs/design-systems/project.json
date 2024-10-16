@@ -54,6 +54,7 @@
         "outputDir": "dist/storybook/design-system",
         "configDir": "libs/design-systems/.storybook",
         "browserTarget": "design-system:build-storybook",
+        "styles": ["libs/design-systems/.storybook/styles.css"],
         "compodoc": false
       },
       "configurations": {

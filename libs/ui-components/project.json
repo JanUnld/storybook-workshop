@@ -53,6 +53,7 @@
       "options": {
         "outputDir": "dist/storybook/ui-components",
         "configDir": "libs/ui-components/.storybook",
+        "styles": ["libs/ui-components/.storybook/styles.css"],
         "browserTarget": "ui-components:build-storybook",
         "compodoc": false
       },
